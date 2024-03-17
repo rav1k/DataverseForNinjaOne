@@ -28,7 +28,7 @@ Make sure to use the redirect URL orovided by the custom connector [in the next 
 1. Go to [make.powerapps.com](https://make.powerapps.com) and open `Dataverse` > `Custom Connectors`
 2. Click on `New custom connector` > `Import an OpenAPI file` and select the [DataverseForNinjaOne.swagger.yaml](https://raw.githubusercontent.com/Vertco/DataverseForNinjaOne/main/DataverseForNinjaOne.swagger%2Cyaml) file from this repo.
 3. Fill the `1. General` tab with your NinjaOne URL (the base URL of your NinjaOne portal) and set the icon and color `#2b3749` as seen below:
-
+![image](https://github.com/Vertco/DataverseForNinjaOne/assets/47614276/631435ef-0010-4e15-bf28-756d59b57385)
 4. Fill the `2. Security` tab with the correct client id and secret as shown below:
 Note that the `Refresh URL` isn't filled, and should be the same as the `Token URL`.
 ![items (2)](https://user-images.githubusercontent.com/47614276/209540765-185bd034-3394-414d-a536-a54c9988b2d9.png)
