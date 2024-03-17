@@ -19,18 +19,18 @@ It allows you to get data from NinjaOne inside of you Microsoft Power App.
 1. In Ninja, navigate to `Administration` > `Apps` > `API` or click [here](https://eu.ninjarmm.com/#/administration/apps/api) (EU instance)
 and click on `Add` to create a new Client app
 2. Fill in the Application Configuration as shown below.
-Make sure to use the redirect URL orovided by the custom connector [in the next step](#connector-creation).
+Make sure to use the redirect URL orovided by the custom connector [in the next step](#connector-creation).<br>
 ![Screenshot 2022-12-26 122155](https://user-images.githubusercontent.com/47614276/209543481-de3b9030-fe69-489d-ad2c-4ed3b1aefa1a.png)
 3. Click on `Save` and take note of the client secret
 4. Click on `Close` and then take note of the client ID
 
 ## Connector creation
 1. Go to [make.powerapps.com](https://make.powerapps.com) and open `Dataverse` > `Custom Connectors`
-2. Click on `New custom connector` > `Import an OpenAPI file` and select the [DataverseForNinjaOne.swagger.yaml](https://raw.githubusercontent.com/Vertco/DataverseForNinjaOne/main/DataverseForNinjaOne.swagger%2Cyaml) file from this repo.
+2. Click on `New custom connector` > `Import an OpenAPI file` and select the [DataverseForNinjaOne.swagger.yaml](https://github.com/Vertco/DataverseForNinjaOne/blob/main/DataverseForNinjaOne.swagger.yaml) file from this repo.
 3. Fill the `1. General` tab with your NinjaOne URL (the base URL of your NinjaOne portal) and set the icon and color `#2b3749` as seen below:
 ![image](https://github.com/Vertco/DataverseForNinjaOne/assets/47614276/631435ef-0010-4e15-bf28-756d59b57385)
 4. Fill the `2. Security` tab with the correct client id and secret as shown below:
-Note that the `Refresh URL` isn't filled, and should be the same as the `Token URL`.
+Note that the `Refresh URL` isn't filled, and should be the same as the `Token URL`.<br>
 ![items (2)](https://user-images.githubusercontent.com/47614276/209540765-185bd034-3394-414d-a536-a54c9988b2d9.png)
 5. Click on `Create connector` 
 
